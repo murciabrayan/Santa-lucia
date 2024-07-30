@@ -1,0 +1,56 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+#usuario{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    top: 450px;
+    left: 200px;
+    position: relative;
+}
+#contraseña{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    top: 550px;
+   right: 90px;
+    position: relative;
+
+}
+
+/* #contraseña::placeholder, #usuario::placeholder, .boton::placeholder{
+    color: #000;  
+    font-style: normal;
+} */
+.boton{
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(106, 104, 218);
+    border: solid;
+    border-radius: 30px;
+   border-style: solid;
+   border-width: 1px;
+   top: 650px;
+   right: 300px;
+   position: relative;
+   }
+ .olvido{
+    border: none;
+    border-style: none;
+    font-size: 15px;
+    color: rgb(46, 13, 194);
+    top: 700px;
+   right: 440px;
+   position: relative;
+ }
