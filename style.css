@@ -4,34 +4,31 @@
     margin: 0;
     box-sizing: content-box;
 }
+
 #usuario{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 280px;
     height: 30px;
     border-radius: 10px;
     text-align: center;
     top: 450px;
-    left: 200px;
+    left:16vw;
     position: relative;
 }
 #contraseña{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 280px;
     height: 30px;
     border-radius: 10px;
     text-align: center;
     top: 550px;
-   right: 90px;
+   left: 1vw;
     position: relative;
 
 }
 
-/* #contraseña::placeholder, #usuario::placeholder, .boton::placeholder{
-    color: #000;  
-    font-style: normal;
-} */
 .boton{
     font-size: 15px;
     width: 130px;
@@ -41,8 +38,8 @@
     border-radius: 30px;
    border-style: solid;
    border-width: 1px;
-   top: 650px;
-   right: 300px;
+   top: 630px;
+   right: 200px;
    position: relative;
    }
  .olvido{
@@ -50,7 +47,22 @@
     border-style: none;
     font-size: 15px;
     color: rgb(46, 13, 194);
-    top: 700px;
-   right: 440px;
+    top: 680px;
+   right: 340px;
    position: relative;
+ }
+ .escudo{
+    width: 280px;
+    position: absolute;
+    top: 120px;
+    left: 310px;
+ }
+ .imagenfondo{
+    position:absolute;  
+    top: 0;           
+    right: 0;          
+    width: 50vw;     
+    height: 100vh;   
+  
+
  }
